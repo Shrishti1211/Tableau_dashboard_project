@@ -56,4 +56,7 @@ Month-on-month the system looked stable with no major spikes or downward trends.
 
 ---
 
+
 ## Project Structure
+
+Here is how the repository is organised:
