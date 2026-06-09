@@ -59,3 +59,49 @@ Month-on-month the system looked stable with no major spikes or downward trends.
 ## Project Structure
 
 Here is how the repository is organised:
+
+
+---
+
+## How to Run
+
+**Step 1 — Clone the repository**
+```bash
+git clone https://github.com/Shrishti1211/Tableau_dashboard_project.git
+```
+
+**Step 2 — Navigate into the project folder**
+```bash
+cd Tableau_dashboard_project
+```
+
+**Step 3 — Install the required libraries**
+```bash
+pip install pandas numpy jupyter
+```
+
+**Step 4 — Launch the notebook**
+```bash
+jupyter notebook eda_feature_engineering.ipynb
+```
+```
+
+Also I noticed line 62-63 in your editor — the Project Structure code block is missing. The folder tree got lost. After "Here is how the repository is organised:" add this too:
+
+```
+```
+Tableau_dashboard_project/
+│
+├── upi_cleaned.csv.gz
+├── eda_feature_engineering.ipynb
+├── upi_dashboard.twb
+├── dashboard_preview.png
+├── requirements.txt
+└── README.md
+```
+```
+
+**Step 4 — Launch the notebook**
+```bash
+jupyter notebook notebooks/upi_analysis.ipynb
+```
