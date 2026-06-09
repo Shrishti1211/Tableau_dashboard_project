@@ -55,28 +55,6 @@ The more interesting finding was around channels. The web channel had a slightly
 Month-on-month the system looked stable with no major spikes or downward trends.
 
 ---
-## How to Run
-
-**Step 1 — Clone the repository**
-```bash
-git clone https://github.com/Shrishti1211/upi-transaction-analysis.git
-```
-
-**Step 2 — Navigate into the project folder**
-```bash
-cd upi-transaction-analysis
-```
-
-**Step 3 — Install the required libraries**
-```bash
-pip install pandas numpy jupyter
-```
-
-**Step 4 — Launch the notebook**
-```bash
-jupyter notebook notebooks/upi_analysis.ipynb
-```
-
 
 ## Project Structure
 
